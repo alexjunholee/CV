@@ -1,0 +1,148 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin]{res}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+\usepackage{hyperref}
+\usepackage{kotex}
+
+% Increase text height
+\textheight=700pt
+
+\begin{document}
+	
+	%-------------------------------------------------------------------------------
+	%	NAME AND ADDRESS SECTION
+	%-------------------------------------------------------------------------------
+	\name{이 준 호 Alex Junho Lee}
+	
+	% Note that addresses can be used for other contact information:
+	% -phone numbers
+	% -email addresses
+	% -linked-in profile
+	
+	\address{291 Daehak-ro\\Yuseong-gu\\Daejeon, South Korea}
+	\address{\href{https://c11.kr/alexlee}{Website}\\alex\_jhlee@kaist.ac.kr\\ \href{https://scholar.google.com/citations?user=SM7JFHsAAAAJ}{Google Scholar}
+	}
+	
+	% Uncomment to add a third address
+	%\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
+	%-------------------------------------------------------------------------------
+	
+	\begin{resume}
+		
+		%-------------------------------------------------------------------------------
+		\section{Education}
+		\textbf{Korea Advanced Institute of Science and Technology (KAIST)}\\
+		{\sl Ph.D. candidate}, Civil and Environmental Engineering, 2022
+		\\- Robotics Program, Smart City Program
+		\\
+		{\sl Bachelor of Engineering}, Mechanical Engineering, Feb 2017
+		\hfill GPA: 3.58/4.3
+		\\- Double Major in Business and Technology Management (BTM)
+		%-------------------------------------------------------------------------------
+		\section{Publications}
+		
+		\par\underline{Alex Junho Lee}, Younggun Cho, Sungho Yoon, Joowan Kim, Ayoung Kim, ``ViViD: Vision for Visibility Dataset". In Proceedings of the \textit{IEEE International Conference on Robotics and Automation (ICRA) Workshop: Dataset Generation and Benchmarking of SLAM Algorithms for Robotics and VR/AR, \textbf{Best Paper}}, 2019.
+			
+		\par\underline{Alex Junho Lee}, Ayoung Kim, ``EventVLAD: Visual Place Recognition with Reconstructed Edges from Event Cameras". In Proceedings of the \textit{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 2021.
+			
+		\par\underline{Alex Junho Lee}, Hyun Myung, ``Natural Language Representation as Features for Place Recognition''. In Proceedings of the \textit{IEEE International Conference on Ubiquitous Robots (UR)}, 2022.
+			
+		\par\underline{Alex Junho Lee}, Younggun Cho, Young-sik Shin, Ayoung Kim, Hyun Myung, ``ViViD++ : Vision For Visibility Dataset". \textit{IEEE Robotics and Automation Letter (RA-L)}, 7(3):6282-6289, 2022.
+			
+		\par\underline{Alex Junho Lee}, Younggun Cho, Hyun Myung, ``Low-cost Thermal Mapping for Concrete Heat Monitoring". In Proceedings of the \textit{IEEE International Conference on Robotics and Automation (ICRA) Workshop: Future of Construction: Build Faster, Better, Safer - Together with Robots}, 2022.
+			
+		\par\underline{Alex Junho Lee}, Seungwon Song, Hyun Myung, ``Disparity Image-based Place Recognition for Monocular Camera in 3D LiDAR Maps". Under review at \textit{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 2022.
+		
+		%-------------------------------------------------------------------------------
+		\section{Achievements}
+		
+		\par Vision for Visibility Dataset (ViViD)
+		Best Paper, IEEE Int. Conf. Robotics and Automation (ICRA) Workshop: Dataset Generation and Benchmarking of SLAM Algorithms for Robotics and VR/AR, 2019.
+						
+		\par Co-Chair of Localization II Session, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2021.
+		
+		\par 2nd Cash Award, HILTI SLAM CHALLENGE, 2022.
+		
+				
+		%-------------------------------------------------------------------------------
+		\section{Field of Interests}
+		Visual Localization, Multimodal sensor fusion, SLAM, Place Recognition, Spatial AI
+		\newpage
+		%-------------------------------------------------------------------------------
+		\section{Experiences}
+		\par	Robust visual place recognition for location authentication (Project, 2022) 
+		\\-	Deep learning-based VPR, participated as project leader.
+		\par	Last-mile delivery robot in urban crowded areas (Project, 2021-2022) 
+		\\-	LiDAR-based SLAM for UGV, participated as SLAM engineer.
+		\par	Visual SLAM on racing drones (Final Stage, 2021)
+		\\-	Korean DARPA Challenge, participated as SLAM part engineer.
+		\\-	Stereo VIO and LiDAR map building on embedded device (Jetson TX2)
+		\par	Outdoor SLAM in unstructured environment (Project, 2019-2021)
+		\\-	Autonomous map building in construction sites, participated as project leader.
+		\\-	Active SLAM, Long-term mapping, Sensor Integration
+		\par	Indoor SLAM with dynamic obstacles (Project, 2019)
+		\\-	Indoor service robot for general uses, participated as SLAM part engineer
+		\\-	SLAM in dynamic environment and obstacles, Obstacle avoidance.
+		\par	Encoder frame device and vehicle odometry measurement system (Patent, 2019)
+		\\-	High-resolution encoder frame for vehicle odometry, suggested and built hardware.
+		\par	Indoor SLAM under complex disaster (Project, 2018)
+		\\-	SLAM under environmental disturbances (Dust, Heat), participated as team member.
+		\par	4th industrial revolution and autonomous driving (Project, 2017)
+		\\-	Investigation project for autonomous driving, participated as team member.
+		\par	Intern in Safety Design Dept. (Doosan Heavy Industries, 2016)
+		\par	International Student Exchange Program (National University of Singapore, 2016
+		
+		%-------------------------------------------------------------------------------
+		
+		\section{Language}
+		\par Korean (Native), English (Fluent)
+		\par Python, C++, MATLAB
+				
+	\end{resume}
+\end{document}
