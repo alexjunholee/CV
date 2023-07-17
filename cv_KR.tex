@@ -1,0 +1,161 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin]{res}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+\usepackage{hyperref}
+\usepackage{kotex}
+
+% Increase text height
+\textheight=700pt
+
+\begin{document}
+	
+	%-------------------------------------------------------------------------------
+	%	NAME AND ADDRESS SECTION
+	%-------------------------------------------------------------------------------
+	\name{이 준 호 Alex Junho Lee}
+	
+	% Note that addresses can be used for other contact information:
+	% -phone numbers
+	% -email addresses
+	% -linked-in profile
+	
+	\address{책임연구원 \\ 로보틱스 랩 \\ (주) 현대자동차}
+	\address{\href{https://c11.kr/alexlee}{Website}\\alexjunholee@gmail.com\\ \href{https://scholar.google.com/citations?user=SM7JFHsAAAAJ}{Google Scholar}
+	}
+	
+	% Uncomment to add a third address
+	%\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
+	%-------------------------------------------------------------------------------
+	
+	\begin{resume}
+		
+		%-------------------------------------------------------------------------------
+		\section{Education}
+		\textbf{한국과학기술원 (KAIST)}\\
+		{\sl Ph.D.}, 건설및환경공학과, 2023
+		\\- 로봇학제전공, 스마트시티 프로그램
+		\\
+		{\sl Bachelor of Engineering}, 기계공학부, Feb 2017
+		\hfill GPA: 3.58 / 4.3
+		\\- 복수전공: 기술경영학부 (BTM)
+		%-------------------------------------------------------------------------------
+				
+		%-------------------------------------------------------------------------------
+		\section{Field of Interests}
+		Visual Localization, Multimodal sensor fusion, SLAM, Place Recognition, Spatial AI
+
+		\section{Publications}
+		
+		\par\underline{Alex Junho Lee}, Ayoung Kim, ``Event-based Real-time Optical Flow Estimation''. In Proceedings of the \textit{IEEE International Conference on Control, Automation and Systems (ICCAS)}, 2017.
+		
+		\par\underline{Alex Junho Lee}, Younggun Cho, Sungho Yoon, Joowan Kim, Ayoung Kim, ``ViViD: Vision for Visibility Dataset". In Proceedings of the \textit{IEEE International Conference on Robotics and Automation (ICRA) Workshop: Dataset Generation and Benchmarking of SLAM Algorithms for Robotics and VR/AR, Best Paper}, 2019.
+			
+		\par\underline{Alex Junho Lee}, Ayoung Kim, ``EventVLAD: Visual Place Recognition with Reconstructed Edges from Event Cameras". In Proceedings of the \textit{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 2021.
+			
+		\par\underline{Alex Junho Lee}, Hyun Myung, ``Natural Language Representation as Features for Place Recognition''. In Proceedings of the \textit{IEEE International Conference on Ubiquitous Robots (UR)}, 2022.
+			
+		\par\underline{Alex Junho Lee}, Younggun Cho, Young-sik Shin, Ayoung Kim, Hyun Myung, ``ViViD++ : Vision For Visibility Dataset". \textit{IEEE Robotics and Automation Letter (RA-L)}, 7(3):6282-6289, 2022.
+			
+		\par\underline{Alex Junho Lee}, Younggun Cho, Hyun Myung, ``Low-cost Thermal Mapping for Concrete Heat Monitoring". In Proceedings of the \textit{IEEE International Conference on Robotics and Automation (ICRA) Workshop: Future of Construction: Build Faster, Better, Safer - Together with Robots}, 2022.
+		
+		\par\underline{Alex Junho Lee}, Hyungtae Lim, Minho Oh, Wonho Song, Hyun Myung, ``Volumetric Vegetation Monitioring from LiDAR Scans with Ground Estimation.''. Under review at \textit{IEEE International Conference on Control, Automation and Systems (ICCAS)}, 2022
+		
+		\par\underline{Alex Junho Lee}, Wonho Song, Byeongho Yu, Duckyu Choi, Christian Tirtawardhana, Hyun Myung, ``Survey of Robotics Technologies for Civil Infrastructure Inspection" Under review at \textit{Journal of Infrastructure Intelligence and Resilience (JIIR)}, 2022.
+			
+		\par\underline{Alex Junho Lee}, Seungwon Song, Hyungtae Lim, Woojoo Lee, Hyun Myung, ``(LC)$^2$: LiDAR-Camera Loop Constraints
+		For Cross-Modal Place Recognition". \textit{IEEE Robotics and Automation Letter (RA-L)}, 2023.
+		
+		\newpage
+		
+		%-------------------------------------------------------------------------------
+		\section{Achievements}
+		
+		\par Best Paper,\textit{ IEEE Int. Conf. Robotics and Automation (ICRA) Workshop: Dataset Generation and Benchmarking of SLAM Algorithms for Robotics and VR/AR}, 2019.
+						
+		\par Co-Chair, Localization II, \textit{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 2021.
+		
+		\par 2nd Cash Award, \textit{HILTI SLAM CHALLENGE}, 2022.
+		%-------------------------------------------------------------------------------
+		\section{Experiences}
+		\par	위치인증을 위한 이미지 기반 장소인식기술 개발사업 (Project, 2022) 
+		\\- 프로젝트 리더로 참여, 딥러닝을 활용한 이미지 기반 위치 인식 알고리즘을 개발하고 성능을 고도화하기 위한 방법들을 적용
+		\par	도심 유동지역에서의 라스트마일 배송 로봇 개발사업 (Project, 2021-2022) 
+		\\- 팀원으로 참여, 동적 환경에서의 LiDAR 기반 실내/실외 위치인식 및 지도제작 개발.
+		\par	K-DARPA Challenge (Final Stage, 2021)
+		\\-	팀원으로 참여, 드론의 전장상황에서의 비행 시험을 위한 자세추정 및 객체위치 추정 알고리즘 개발
+		\\-	스테레오 VIO와 tilted 2D 라이다를 임베디드 디바이스(Jetson TX2)에서 구동함으로서, 지정된 형태의 사물을 인식하고 그 위치를 매핑하도록 설계
+		\par	지능로보틱스분야 기술분석 및 연구기획 방향 분석 보고서 (Project, 2021)
+		\\-	팀원으로 참여, 로보틱스 분야 기술 보고서 작성.
+		\par	스마트 건설을 위한 비정형 환경에서의 지도작성 알고리즘 (Project, 2019-2021)
+		\\- 프로젝트 리더로 참여, 비정형 환경에서의 라이다 기반 위치추정 및 지도제작
+		\\-	Active SLAM, Long-term mapping, Sensor Integration
+		\par	유동인구가 많은 실내에서의 지도제작 및 위치추정 (Project, 2019)
+		\\-	팀원으로 참여, 과학관 안내 로봇 제작을 위한 지도제작 및 위치추정 알고리즘
+		\\-	장애물 회피 및 동적 환경에서의 위치인식 능력 시험
+		\par	엔코더 프레임과 이를 이용한 차량용 정밀 오도메트리 측정방법 (Patent, 2019)
+		\\-	하드웨어 설계 파트 담당으로 참여
+		\\- 기기 공작용 고정밀 인코더 시스템을 차량에 부착하여 오도메트리를 추정하는 기술
+		\par	복합재난상황에서의 실내 위치추정 및 지도제작 (Project, 2018)
+		\\-	팀원으로 참여, 지진, 화재 등의 복합적 재난상황의 구조 드론 기동을 위한 위치추정 및 지도제작 알고리즘 설계
+		\par	4차 산업 혁명과 자율주행 보고서 (Project, 2017)
+		\\-	팀원으로 참여, 4차산업혁명과 자율주행을 받아들이기 위한 제도적 필요사항 조사
+		\par	인턴, 지능로보틱스연구본부 (한국전자통신연구원 (ETRI), 2017)
+		\par	인턴, 안전기기설계팀 (두산중공업, 2016)
+		\par	교환학생 (싱가포르국립대 (NUS), 2016)
+		\par	정규교사 (KAIST 글로벌영재교육원, 2015-2018)
+		\par	교육봉사 (대전 유성구청, 2013-2015)
+		
+		%-------------------------------------------------------------------------------
+		
+		\section{Language}
+		\par Korean (Native), English (Fluent)
+		\par Python, C++, MATLAB
+				
+	\end{resume}
+\end{document}
