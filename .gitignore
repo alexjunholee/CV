@@ -1,2 +1,5 @@
+*.aux
 *.gz
 *.log
+*.out
+.git.nosync

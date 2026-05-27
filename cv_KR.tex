@@ -47,8 +47,15 @@
 
 % Default font is the helvetica postscript font
 \usepackage{helvet}
-\usepackage{hyperref}
+\usepackage{iftex}
+\ifPDFTeX
 \usepackage{kotex}
+\else
+\usepackage{fontspec}
+\setmainfont{Noto Sans CJK KR}
+\setsansfont{Noto Sans CJK KR}
+\fi
+\usepackage{hyperref}
 
 % Increase text height
 \textheight=700pt
@@ -104,12 +111,23 @@
 			
 		\par\underline{Alex Junho Lee}, Younggun Cho, Hyun Myung, ``Low-cost Thermal Mapping for Concrete Heat Monitoring". In Proceedings of the \textit{IEEE International Conference on Robotics and Automation (ICRA) Workshop: Future of Construction: Build Faster, Better, Safer - Together with Robots}, 2022.
 		
-		\par\underline{Alex Junho Lee}, Hyungtae Lim, Minho Oh, Wonho Song, Hyun Myung, ``Volumetric Vegetation Monitioring from LiDAR Scans with Ground Estimation.''. Under review at \textit{IEEE International Conference on Control, Automation and Systems (ICCAS)}, 2022
+		\par\underline{Alex Junho Lee}, Hyungtae Lim, Minho Oh, Wonho Song, Hyun Myung, ``Volumetric Vegetation Monitoring from LiDAR Scans with Ground Estimation''. In Proceedings of the \textit{IEEE International Conference on Control, Automation and Systems (ICCAS)}, pp. 1378--1379, 2022.
 		
-		\par\underline{Alex Junho Lee}, Wonho Song, Byeongho Yu, Duckyu Choi, Christian Tirtawardhana, Hyun Myung, ``Survey of Robotics Technologies for Civil Infrastructure Inspection" Under review at \textit{Journal of Infrastructure Intelligence and Resilience (JIIR)}, 2022.
-			
-		\par\underline{Alex Junho Lee}, Seungwon Song, Hyungtae Lim, Woojoo Lee, Hyun Myung, ``(LC)$^2$: LiDAR-Camera Loop Constraints
-		For Cross-Modal Place Recognition". \textit{IEEE Robotics and Automation Letter (RA-L)}, 2023.
+		\par Sumin Hu, Yeeun Kim, Hyungtae Lim, \underline{Alex Junho Lee}, Hyun Myung, ``eCDT: Event Clustering for Simultaneous Feature Detection and Tracking''. In Proceedings of the \textit{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, pp. 3808--3815, 2022.
+
+		\par Seungwon Song, Hyungtae Lim, \underline{Alex Junho Lee}, Hyun Myung ``DynaVINS: A Visual-Inertial SLAM for Dynamic Environments''.  \textit{IEEE Robotics and Automation Letter (RA-L)}, 7(4):11523--11530, 2022.
+
+		\par\underline{Alex Junho Lee}, Seungwon Song, Hyungtae Lim, Woojoo Lee, Hyun Myung, ``(LC)$^2$: LiDAR-Camera Loop Constraints for Cross-Modal Place Recognition''. \textit{IEEE Robotics and Automation Letter (RA-L)}, 8(6):3589--3596, 2023.
+
+		\par\underline{Alex Junho Lee}, Wonho Song, Byeongho Yu, Duckyu Choi, Christian Tirtawardhana, Hyun Myung, ``Survey of Robotics Technologies for Civil Infrastructure Inspection''. \textit{Journal of Infrastructure Intelligence and Resilience}, 2(1):100018, 2023.
+
+		\par Ung Hyun Ko, Jinseung Choung, \underline{Alex Junho Lee}, Suk-Hee Park, Jennifer H. Shin, ``Surface Tension-Induced Biomimetic Assembly of Cell-Laden Fibrous Bundle Construct for Muscle Tissue Engineering''. \textit{Biomedical Materials}, 18(5):055031, 2023.
+
+		\par Seungwon Song, Hyungtae Lim, \underline{Alex Junho Lee}, Hyun Myung, ``DynaVINS++: Robust Visual-Inertial State Estimator in Dynamic Environments by Adaptive Truncated Least Squares and Stable State Recovery''. \textit{IEEE Robotics and Automation Letter (RA-L)}, 9(10):9127--9134, 2024.
+
+		\par Seoyeon Jang, \underline{Alex Junho Lee}, I Made Aswin Nahrendra, Hyun Myung, ``Chamelion: Reliable Change Detection for Long-Term LiDAR Mapping in Transient Environments''. \textit{IEEE Robotics and Automation Letter (RA-L)}, 11(4):4361--4368, 2026.
+
+		\par\underline{Alex Junho Lee}, Dongjin Hyun, ``언어 기반 네비게이션에서의 불확실성 재고''. \textit{Journal of Korea Robotics Society (JKRS)}, 21(2), 2026.
 		
 		\newpage
 		
