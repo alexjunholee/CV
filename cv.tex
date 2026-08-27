@@ -57,6 +57,9 @@
 \fi
 \usepackage{hyperref}
 
+% Slightly tighten the body text while keeping the existing layout.
+\newcommand{\cvbodyfont}{\fontsize{9.5pt}{11.4pt}\selectfont}
+
 % Increase text height
 \textheight=700pt
 
@@ -81,6 +84,7 @@
 	%-------------------------------------------------------------------------------
 	
 	\begin{resume}
+		\cvbodyfont
 		
 		%-------------------------------------------------------------------------------
 		\section{Education}
@@ -138,14 +142,73 @@
 		\par Ayoung Kim, \underline{Alex Junho Lee}, Younggun Cho, Giseop Kim, Hyunchul Roh, ``Encoder Frame Device and Vehicle Odometry Measurement System Using the Same,'' Korean Patent Application No. 10-2017-0099614, Korean Patent Registration No. 10-1994339-0000, 2019.
 
 		%-------------------------------------------------------------------------------
-		\section{Articles / Reports, etc.}
+		\section{Articles}
 		\par Modern SLAM and Spatial AI Technologies, \textit{Robot and Human}, 23(1), Summer 2026.
 
-		\par Trends in Safety Robot Technologies for Building Inspection, \textit{ICROS}, September 2022.
+		\par Trends in Safety Robot Technologies for Building Inspection, \textit{ICROS}, 2022.
 
 		\par Technology Innovation Committee Report on Intelligent Robotics, 2021.
 
 		\par Fourth Industrial Revolution and Autonomous Driving Report, 2017.
+
+		%-------------------------------------------------------------------------------
+		\section{Talks \& Seminars}
+		\begingroup\raggedright
+		\interlinepenalty=10000
+		\par ``Research Trends in Robust Perception Methods for Mobile Robots in Real-World Environments''\\*
+		\textit{Korea Institute for Robot Industry Advancement (KIRIA)}, Aug.~19,~2026.
+
+		\par ``Spatio-Temporal State Estimation and Semantic Memory in Unstructured Environments''\\*
+		\textit{Korea Robotics Society Annual Conference (KRoC)}, Feb.~6,~2026.
+
+		\par ``Spatial AI Tutorial - AI Fundamentals for Monocular VSLAM''\\*
+		\textit{Korea Robotics Society Annual Conference (KRoC)}, Feb.~6,~2026.
+
+		\par ``Map-Independent Spatial Perception in Unstructured Extreme Environments''\\*
+		\textit{Korea Institute of Machinery \& Materials (KIMM)}, Nov.~10,~2025.
+
+		\par ``Map Quality Evaluation for Robotics''\\*
+		\textit{International Conference on Control, Automation, and Systems (ICCAS)}, Nov.~6,~2025.
+
+		\par ``Surviving as a Mechanical Engineer in the AI Era''\\*
+		\textit{Graduate Seminar, Sookmyung Women's University}, Oct.~13,~2025.
+
+		\par ``Beyond SLAM: Distributed Sensors, Collective Data''\\*
+		\textit{10th Anniversary Symposium, College of Engineering, Sookmyung Women's University}, Sep.~6,~2025.
+
+		\par ``Conducting Robot Perception Research as an Early-Career Researcher''\\*
+		\textit{Institute of Advanced Materials and Systems, Sookmyung Women's University}, Aug.~29,~2025.
+
+		\par ``What Is Spatial Intelligence for Mobile Robots?''\\*
+		\textit{AI Center, Sookmyung Women's University}, May~23,~2025.
+
+		\par Invited Talk\\*
+		\textit{Pusan National University}, Nov.~25,~2024.
+
+		\par ``Multimodal Spatial Intelligence for Robots''\\*
+		\textit{Department of Electrical Engineering, Inha University}, Nov.~21,~2024.
+
+		\par ``Service Robot Operation in Real-World Environments and Multimodal Spatial Intelligence''\\*
+		\textit{Young Researchers Session, Institute of Control, Robotics and Systems (ICROS)}, Jul.~3,~2024.
+
+		\par Invited Talk\\*
+		\textit{Ajou University}, Apr.~18,~2024.
+
+		\par Invited Talk\\*
+		\textit{DGIST}, Jan.~15,~2024.
+
+		\par Invited Talk\\*
+		\textit{Pusan National University}, Nov.~26,~2023.
+
+		\par ``Foundation Models in Robotic Missions''\\*
+		\textit{SLAM KR}, Nov.~25,~2023.
+
+		\par ``Robotic Foundation Models''\\*
+		\textit{Department of Electrical Engineering, Inha University}, Nov.~21,~2023.
+
+		\par ``Robust sensor fusion-based localization''\\*
+		\textit{Korea Electronics Technology Institute (KETI)}, Oct.~26,~2023.
+		\par\endgroup
 		%-------------------------------------------------------------------------------
 		%-------------------------------------------------------------------------------
 		\section{Research Projects}
@@ -161,13 +224,17 @@
 
 		%-------------------------------------------------------------------------------
 		\section{Awards}
-		\par Top Excellence Award (KRW 1,000,000), 2025 SMU EDU Expo Capstone Design Competition --- Faculty Advisor, Team MechX, Dec. 2025.
+		\par Top Excellence Award (KRW 1,000,000), 2025 SMU EDU Expo\\
+		Capstone Design Competition --- Supervisor, Team MechX, Dec. 2025.
 
-		\par Top Excellence Award (KRW 1,000,000), 2025 SMU EDU Expo Capstone Design Competition --- Faculty Advisor, Team Combeenation, Dec. 2025.
+		\par Top Excellence Award (KRW 1,000,000), 2025 SMU EDU Expo\\
+		Capstone Design Competition --- Supervisor, Team Combeenation, Dec. 2025.
 
-		\par Outstanding Young Researcher, \textit{International Conference on Control, Automation, and Systems (ICCAS)}, 2025.
+		\par Outstanding Young Researcher,\\
+		\textit{International Conference on Control, Automation, and Systems (ICCAS)}, 2025.
 
-		\par Young Researcher Fellowship, \textit{Institute of Control, Robotics and Systems (ICROS)}, 2024.
+		\par Young Researcher Fellowship,\\
+		\textit{Institute of Control, Robotics and Systems (ICROS)}, 2024.
 
 		\par 2nd Cash Award, \textit{HILTI SLAM CHALLENGE}, 2022.
 
@@ -212,7 +279,7 @@
 
 		%-------------------------------------------------------------------------------
 		\section{Service}
-		\par \textit{Associate Editor}: IEEE Robotics and Automation Letters (RA-L), 2026--Present.
+		\par \textit{Associate Editor}: IEEE Robotics and Automation Letters (RA-L), 2026--Present; IEEE International Conference on Robotics and Automation (ICRA).
 
 		\par \textit{Editor}: IEEE International Conference on Ubiquitous Robots (UR), 2025--2026.
 

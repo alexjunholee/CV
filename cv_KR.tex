@@ -57,6 +57,9 @@
 \fi
 \usepackage{hyperref}
 
+% Slightly tighten the body text while keeping the existing layout.
+\newcommand{\cvbodyfont}{\fontsize{9.5pt}{11.4pt}\selectfont}
+
 % Increase text height
 \textheight=700pt
 
@@ -81,6 +84,7 @@
 	%-------------------------------------------------------------------------------
 	
 	\begin{resume}
+		\cvbodyfont
 		
 		%-------------------------------------------------------------------------------
 		\section{Education}
@@ -139,15 +143,74 @@
 		\par 김아영, \underline{이준호}, 조영근, 김기섭, 노현철, ``엔코더 프레임 장치 및 이를 이용한 차량 위치 측정 시스템,'' 출원: 10-2017-0099614, 등록: 10-1994339-0000, 2019.
 
 		%-------------------------------------------------------------------------------
-		\section{Articles / Reports, etc.}
+		\section{Articles}
 		\par 현대 SLAM과 Spatial AI 기술, \textit{로봇과 인간}, 23권 1호 (여름호), 2026.
 
-		\par 건축물 진단을 위한 안전 로봇 기술 동향, \textit{ICROS} 9월호, 2022.
+		\par 건축물 진단을 위한 안전 로봇 기술 동향, \textit{ICROS}, 2022.
 
 		\par 지능로보틱스분야 기술혁신위원회 보고서, 2021.
 
 		\par 4차산업혁명과 자율주행 보고서, 2017.
-		
+
+		%-------------------------------------------------------------------------------
+		\section{강연 및 세미나}
+		\begingroup\raggedright
+		\interlinepenalty=10000
+		\par ``이동로봇의 실환경 공간에서의 강건 인지기법 연구동향''\\*
+		\textit{한국로봇산업진흥원 (KIRIA)}, 2026.08.19.
+
+		\par ``Spatio-Temporal State Estimation and Semantic Memory in Unstructured Environments''\\*
+		\textit{한국로봇종합학술대회 (KRoC)}, 2026.02.06.
+
+		\par ``Spatial AI Tutorial - AI Fundamentals for Monocular VSLAM''\\*
+		\textit{한국로봇종합학술대회 (KRoC)}, 2026.02.06.
+
+		\par ``비정형 극한환경에서의 지도 비의존적 공간인식''\\*
+		\textit{한국기계연구원 (KIMM)}, 2025.11.10.
+
+		\par ``Map Quality Evaluation for Robotics''\\*
+		\textit{제어로봇시스템학회 국제학술대회 (ICCAS)}, 2025.11.06.
+
+		\par ``AI 시대에 기계공학도로 살아남기''\\*
+		\textit{숙명여자대학교 대학원 세미나}, 2025.10.13.
+
+		\par ``Beyond SLAM: Distributed Sensors, Collective Data''\\*
+		\textit{숙명여자대학교 공과대학 10주년 심포지엄}, 2025.09.06.
+
+		\par ``신진연구자로서 로봇 인식 연구하기''\\*
+		\textit{숙명여자대학교 첨단소재시스템연구소}, 2025.08.29.
+
+		\par ``이동로봇 공간지능이란?''\\*
+		\textit{숙명여자대학교 AI센터}, 2025.05.23.
+
+		\par 초청 강연\\*
+		\textit{부산대학교}, 2024.11.25.
+
+		\par ``로봇을 위한 멀티모달 공간인공지능''\\*
+		\textit{인하대학교 전기공학과}, 2024.11.21.
+
+		\par ``실환경에서의 서비스 로봇 운용과 멀티모달 공간인공지능''\\*
+		\textit{제어로봇시스템학회 (ICROS) 신진연구자 세션}, 2024.07.03.
+
+		\par 초청 강연\\*
+		\textit{아주대학교}, 2024.04.18.
+
+		\par 초청 강연\\*
+		\textit{DGIST}, 2024.01.15.
+
+		\par 초청 강연\\*
+		\textit{부산대학교}, 2023.11.26.
+
+		\par ``Foundation Models in Robotic Missions''\\*
+		\textit{SLAM KR}, 2023.11.25.
+
+		\par ``Robotic Foundation Models''\\*
+		\textit{인하대학교 전기공학과}, 2023.11.21.
+
+		\par ``Robust sensor fusion-based localization''\\*
+		\textit{한국전자기술연구원 (KETI)}, 2023.10.26.
+		\par\endgroup
+			
 		%-------------------------------------------------------------------------------
 		%-------------------------------------------------------------------------------
 		\section{Research Projects}
@@ -176,7 +239,6 @@
 		\par Best Paper, \textit{IEEE Int. Conf. Robotics and Automation (ICRA) Workshop: Dataset Generation and Benchmarking of SLAM Algorithms for Robotics and VR/AR}, 2019.
 		%-------------------------------------------------------------------------------
 		\section{Experiences}
-		\par	무인이동체 자율운행을 위한 요소 \& 핵심 기술 전문가 초청 세미나 (한국전자기술연구원, 2023)
 		\par	위치인증을 위한 이미지 기반 장소인식기술 개발사업 (Project, 2022) 
 		\\- 프로젝트 리더로 참여, 딥러닝을 활용한 이미지 기반 위치 인식 알고리즘을 개발하고 성능을 고도화하기 위한 방법들을 적용
 		\par	도심 유동지역에서의 라스트마일 배송 로봇 개발사업 (Project, 2021-2022) 
@@ -216,7 +278,7 @@
 
 		%-------------------------------------------------------------------------------
 		\section{Service}
-		\par \textit{Associate Editor}: IEEE Robotics and Automation Letters (RA-L), 2026--현재.
+		\par \textit{Associate Editor}: IEEE Robotics and Automation Letters (RA-L), 2026--현재; IEEE International Conference on Robotics and Automation (ICRA).
 
 		\par \textit{Editor}: IEEE International Conference on Ubiquitous Robots (UR), 2025--2026.
 
